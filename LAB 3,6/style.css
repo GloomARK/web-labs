@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.main-form{
+    position: relative;
+    background-color: beige;
+    width: 40%;
+    margin: 40px auto 100px auto;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 19px 38px darkkhaki;
+    color: crimson;
+    font-size: 100%
+}
+
+.button{
+    display: block;
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid pink;
+    border-radius: 5px;
+    background-color: pink;
+    color: crimson;
+}
+
+.main-form textarea{
+    width: 100%;
+    min-height: 100px;
+    resize: none;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    font-size: 25px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+.form-label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.e-mail{
+    display: none;
+}
+
+.avatar{
+    height: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input, select, textarea{
+    font-size: inherit;
+}
